@@ -12,6 +12,14 @@
 - **时间复杂度**：`O(n log n + n k_max)`，内存占用约 `O(n)`。
 - **接口友好**：提供 `fit-predict-decision_function`，可与 scikit-learn / PyOD 等框架无缝联动。
 
+- **文件详情**
+- **一、主程序与核心算法**
+-	main.py：命令行入口，完成数据加载、参数解析与实验流程调度
+-	SpiderODv5.py：Spider-OD 算法实现
+- **二、辅助工具**
+-	dataPreprocessing.py：数据清洗、标准化、随机划分等通用预处理函数
+
+
 ---
 
 ## 技术栈说明
