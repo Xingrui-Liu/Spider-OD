@@ -175,8 +175,8 @@ for now_dataset in range(0, len(datasets_list)):
 
         # 运行代码
         # TODO 修改3：k值 注意左闭右开
-        start_k = 8
-        end_k = 91
+        start_k = 5
+        end_k = 201
 
         print("now_algorithm= ",algorithms_list[now_algorithm])
         for k in range(start_k, end_k):
@@ -210,7 +210,7 @@ for now_dataset in range(0, len(datasets_list)):
 
 
             # TODO spider代码
-            elif algorithm == "Spider":
+            if algorithm == "Spider":
                 # # TODO 数据集归一化处理
                 standard_scaler = preprocessing.StandardScaler()
                 standard_scaler.fit(X_train)
